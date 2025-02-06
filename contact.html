@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Adi's Gym</title>
+    <style>
+        /* Reset and Box Sizing */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: black;
+            color: white;
+            padding-top: 80px; /* Space for fixed header */
+        }
+
+        /* Header Styling */
+        header {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        /* Navigation Styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #FFD700;
+            color: black;
+        }
+
+        /* Section Styling (Contact Info) */
+        section {
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.8);
+            margin: 20px;
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        section a {
+            text-decoration: none;
+            color: #FFD700;
+            font-weight: bold;
+        }
+
+        section a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styling */
+        footer {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Design for Smaller Screens */
+        @media (max-width: 768px) {
+            body {
+                padding-top: 120px; /* Adjust space for mobile view */
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            nav {
+                flex-direction: column; /* Stack links vertically */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section>
+        <h2>Contact Us</h2>
+        <p>Email: info@adisgym.com</p>
+        <p>Phone: +91 1234567890</p>
+        <a href="index.html">Back to Home</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Adi's Gym. All rights reserved.</p>
+    </footer>
+</body>
+</html>
